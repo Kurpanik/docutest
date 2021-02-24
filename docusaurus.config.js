@@ -1,13 +1,13 @@
 module.exports = {
   title: 'My Site',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://kurpanik.github.io',
+  baseUrl: '/docutest/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Kurpanik', // Usually your GitHub org/user name.
+  projectName: 'docutest', // Usually your repo name.
   themeConfig: {
     hideableSidebar: true,
     navbar: {
@@ -32,16 +32,10 @@ module.exports = {
         {
           type: 'docsVersionDropdown',
           position: 'right',
-          dropdownActiveClassDisabled: false,
-          dropdownItemsAfter: [
-            {
-              to: '/versions',
-              label: 'All versions',
-            },
-          ],
+          dropdownActiveClassDisabled: false
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/kurpanik/docutest',
           label: 'GitHub',
           position: 'right',
         },
@@ -105,13 +99,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/Kurpanik/docutest/tree/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/Kurpanik/docutest/tree/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
