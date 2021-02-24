@@ -1,0 +1,60 @@
+{
+  "version-1.2/someSidebar": [
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Docusaurus",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-1.2/doc1"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.2/doc2"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.2/doc3"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Features",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-1.2/mdx"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Guides",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-1.2/creating-pages/Intro"
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Docs",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-1.2/creating-pages/doc11"
+            },
+            {
+              "type": "doc",
+              "id": "version-1.2/creating-pages/doc22"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
