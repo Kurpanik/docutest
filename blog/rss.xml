@@ -4,9 +4,16 @@
         <title>My Site Blog</title>
         <link>https://kurpanik.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Neuer Beitrag]]></title>
+            <link>https://kurpanik.github.io/docutest/blog/Neuer Beitrag</link>
+            <guid>Neuer Beitrag</guid>
+            <pubDate>Thu, 04 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hallo Github]]></description>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://kurpanik.github.io/docutest/blog/welcome</link>
